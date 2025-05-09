@@ -14,6 +14,7 @@ Non-leak features should remain identical for the overlapping cases; leak-based 
 
 > Skip `Prepare_shorter_test.ipynb`—its output datasets are already provided.
 
+
 1. **Full-test run**  
    - Execute your solution on the original test set.  
    - Just before or after producing predictions, export all feature columns (including `mint` ID) and save this dump.
@@ -24,6 +25,13 @@ Non-leak features should remain identical for the overlapping cases; leak-based 
 
 3. **Compare features**  
    - Run `Compare_features.ipynb` on both dumps to identify features with differences.
+
+## Datasetss produced by `Prepare_shorter_test.ipynb`
+
+https://www.kaggle.com/datasets/dremovd/pump-fun-graduation-february-2025-shorter
+
+https://www.kaggle.com/datasets/dremovd/pump-fun-api-solana-tokens-info-shorter
+
 
 > The training data is unchanged; only the test set is shortened at a defined cutoff. See `Prepare-shorter-test.ipynb` for details.
 
